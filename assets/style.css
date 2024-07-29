@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap);
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -353,4 +354,22 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
+footer {
+    text-align: center;
+    margin-top: .3em;
+    background:#5f5826;;
+	color: white;
+}
+.footer1 {
+	padding: 0 1em;
+    text-decoration: none;
+	font-size: 1.7rem;
+}
+.footer2{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    width: 100%;
+}
