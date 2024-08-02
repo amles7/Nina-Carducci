@@ -132,7 +132,7 @@
       filterByTag() {
         if (!a(this).hasClass("active-tag")) {
           a(".active-tag").removeClass("active active-tag"),
-            a(this).addClass("active-tag");
+            a(this).addClass("active active-tag");
           var e = a(this).data("images-toggle");
           a(".gallery-item").each(function () {
             a(this).parents(".item-column").hide(),
